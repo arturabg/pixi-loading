@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "noImplicitAny": true,
+    "sourceMap": true,
+    "module": "es6",
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true,
+    "moduleResolution": "node",
+    "types": ["node"],
+    "typeRoots" : ["node_modules/@types", "src/types"],
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+  },
+  "include": [
+    "types/declaration.d.ts",
+    "node_modules/@types"
+  ],
+  "exclude": ["dist", "build", "node_modules"]
+}
